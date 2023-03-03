@@ -1,0 +1,23 @@
+{
+  "name": "did-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exec": "npx ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@noble/secp256k1": "^1.7.1",
+    "@spruceid/didkit-wasm-node": "^0.2.1",
+    "jose": "^4.13.1"
+  }
+}
